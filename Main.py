@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 
 import pickle
 import xgboost as xgb
@@ -118,3 +117,4 @@ if st.button('Prediksi'):
         st.error('Overweight Level II')        
     else:
         st.error('Tidak Terprediksi')
+
